@@ -1,0 +1,151 @@
+---
+layout: table_wrappers
+---
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: 'en-US' }}">
+	{% include head.html %}
+
+	<body>
+		<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+			<symbol id="svg-link" viewBox="0 0 24 24">
+				<title>Link</title>
+				<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-link">
+					<path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path>
+					<path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+				</svg>
+			</symbol>
+			<symbol id="svg-search" viewBox="0 0 24 24">
+				<title>Search</title>
+				<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search">
+					<circle cx="11" cy="11" r="8"></circle>
+					<line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+				</svg>
+			</symbol>
+			<symbol id="svg-menu" viewBox="0 0 24 24">
+				<title>Menu</title>
+				<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu">
+					<line x1="3" y1="12" x2="21" y2="12"></line>
+					<line x1="3" y1="6" x2="21" y2="6"></line>
+					<line x1="3" y1="18" x2="21" y2="18"></line>
+				</svg>
+			</symbol>
+			<symbol id="svg-arrow-right" viewBox="0 0 24 24">
+				<title>Expand</title>
+				<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
+					<polyline points="9 18 15 12 9 6"></polyline>
+				</svg>
+			</symbol>
+			<symbol id="svg-doc" viewBox="0 0 24 24">
+				<title>Document</title>
+				<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file">
+					<path d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"></path>
+					<polyline points="13 2 13 9 20 9"></polyline>
+				</svg>
+			</symbol>
+		</svg>
+		<div class="side-bar">
+			<div class="site-header">
+				<a href="{{ '/' | absolute_url }}" class="site-title lh-tight"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAH4AAAAdCAYAAABsQ9h8AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyFpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTQyIDc5LjE2MDkyNCwgMjAxNy8wNy8xMy0wMTowNjozOSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIChXaW5kb3dzKSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDpDRTdGQzJDRjI5NDMxMUU5OUFDNThENzBEMEIxMUQ0QiIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDpDRTdGQzJEMDI5NDMxMUU5OUFDNThENzBEMEIxMUQ0QiI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkNFN0ZDMkNEMjk0MzExRTk5QUM1OEQ3MEQwQjExRDRCIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOkNFN0ZDMkNFMjk0MzExRTk5QUM1OEQ3MEQwQjExRDRCIi8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+AMqxQAAABsBJREFUeNrsWmtsFFUY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" alt=""></a>
+				<a href="#" id="menu-button" class="site-button">
+					<svg viewBox="0 0 24 24" class="icon">
+						<use xlink:href="#svg-menu"></use>
+					</svg>
+				</a>
+			</div>
+			<nav role="navigation" aria-label="Main" id="site-nav" class="site-nav">
+				{% include nav.html %}
+			</nav>
+			<footer class="site-footer">
+				White paper Version 8.1
+			</footer>
+		</div>
+		<div class="main" id="top">
+			<div id="main-header" class="main-header">
+				{% if site.search_enabled != false %}
+				<div class="search">
+					<div class="search-input-wrap">
+						<input type="text" id="search-input" class="search-input" tabindex="0" placeholder="Search {{ site.title }}" aria-label="Search {{ site.title }}" autocomplete="off">
+						<label for="search-input" class="search-label"><svg viewBox="0 0 24 24" class="search-icon">
+								<use xlink:href="#svg-search"></use>
+							</svg></label>
+					</div>
+					<div id="search-results" class="search-results"></div>
+				</div>
+				{% endif %}
+				{% if site.aux_links %}
+				<nav aria-label="Auxiliary" class="aux-nav">
+					<ul class="aux-nav-list">
+						{% for link in site.aux_links %}
+						<li class="aux-nav-list-item">
+							<a href="{{ link.last }}" class="site-button" {% if site.aux_links_new_tab %} target="_blank" rel="noopener noreferrer" {% endif %}>
+								{{ link.first }}
+							</a>
+						</li>
+						{% endfor %}
+					</ul>
+				</nav>
+				{% endif %}
+			</div>
+			<div id="main-content-wrap" class="main-content-wrap">
+				{% unless page.url == "/" %}
+				{% if page.parent %}
+				<nav aria-label="Breadcrumb" class="breadcrumb-nav">
+					<ol class="breadcrumb-nav-list">
+						{% if page.grand_parent %}
+						<li class="breadcrumb-nav-list-item"><a href="{{ first_level_url }}">{{ page.grand_parent }}</a></li>
+						<li class="breadcrumb-nav-list-item"><a href="{{ second_level_url }}">{{ page.parent }}</a></li>
+						{% else %}
+						<li class="breadcrumb-nav-list-item"><a href="{{ first_level_url }}">{{ page.parent }}</a></li>
+						{% endif %}
+						<li class="breadcrumb-nav-list-item"><span>{{ page.title }}</span></li>
+					</ol>
+				</nav>
+				{% endif %}
+				{% endunless %}
+				<div id="main-content" class="main-content" role="main">
+					{% if site.heading_anchors != false %}
+					{% include vendor/anchor_headings.html html=content beforeHeading="true" anchorBody="<svg viewBox=\"0 0 16 16\" aria-hidden=\"true\">
+						<use xlink:href=\"#svg-link\"></use>
+					</svg>" anchorClass="anchor-heading" %}
+					{% else %}
+					{{ content }}
+					{% endif %}
+					{% if page.has_children == true and page.has_toc != false %}
+					<hr>
+					<h2 class="text-delta">Table of contents</h2>
+					<ul>
+						{%- assign children_list = pages_list | where: "parent", page.title | where: "grand_parent", page.parent -%}
+						{% for child in children_list %}
+						<li>
+							<a href="{{ child.url | absolute_url }}">{{ child.title }}</a>{% if child.summary %} - {{ child.summary }}{% endif %}
+						</li>
+						{% endfor %}
+					</ul>
+					{% endif %}
+					{% if site.footer_content != nil or site.last_edit_timestamp or site.gh_edit_link %}
+					<hr>
+					<footer>
+						{% if site.back_to_top %}
+						<p><a href="#top" id="back-to-top">{{ site.back_to_top_text }}</a></p>
+						{% endif %}
+						{% if site.footer_content != nil %}
+						<p class="text-small text-grey-dk-000 mb-0">{{ site.footer_content }}</p>
+						{% endif %}
+					</footer>
+					{% endif %}
+				</div>
+			</div>
+			{% if site.search_enabled != false %}
+			{% if site.search.button %}
+			<a href="#" id="search-button" class="search-button">
+				<svg viewBox="0 0 24 24" class="icon">
+					<use xlink:href="#svg-search"></use>
+				</svg>
+			</a>
+			{% endif %}
+			<div class="search-overlay"></div>
+			{% endif %}
+		</div>
+	</body>
+
+</html>
