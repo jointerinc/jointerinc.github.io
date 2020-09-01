@@ -25,4 +25,4 @@ permalink: /
 
 - Winner of 1st Place in the Disruptor Daily "Blockchain in Real Estate" Award
 
-- The most Promising Venture from the Carnegie Mellon University US-China Innovation and Entrepreneurship Association
+- The Most Promising Venture from the Carnegie Mellon University US-China Innovation and Entrepreneurship Association
