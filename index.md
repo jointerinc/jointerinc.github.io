@@ -2,17 +2,17 @@
 layout: default
 title: Home
 nav_order: 1
-description: "The Future Of Commercial Real Estate Syndication"
+description: "The Future Of Commercial Real Estate Syndicationand Decentralized Finance"
 permalink: /
 ---
 
 # JOINTER
 {: .no_toc }
 
-## The Future Of Commercial Real Estate Syndication
+## The Future Of Commercial Real Estate Syndication and Decentralized Finance
 
-- Crowdfunding and REIT Alternative
-- Liquidity 24/7
+- Multiple Asset Classes
+- Daily DeFi Auction with Discounts
 - 90% Downside Protection
 
 #### Whitepaper Version 8.1
