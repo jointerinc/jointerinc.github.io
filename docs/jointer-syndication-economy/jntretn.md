@@ -107,16 +107,16 @@ complete the transaction.[^31] A partial swap is completed first while the rest 
 
 **Example**
 
-- Bob wants to swap $1,000 JNTR/ETN with $1,000 ETH
-- Bob sends his order to SmartSwap and SmartSwap immediately identifies one counterparty that wants to swap $500 ETH against JNTR/ETN
-- In this case, Bob will get the first $500 ETH and the rest of the $500 JNTR/ETN will stay pending until the SmartSwap identifies more counterparties that want to swap ETH with JNTR/ETN
+- Bob wants to swap $1,000 JNTR/ETN with $1,000 BNB
+- Bob sends his order to SmartSwap and SmartSwap immediately identifies one counterparty that wants to swap $500 BNB against JNTR/ETN
+- In this case, Bob will get the first $500 BNB and the rest of the $500 JNTR/ETN will stay pending until the SmartSwap identifies more counterparties that want to swap BNB with JNTR/ETN
 
 ## Selling JNTR/ETN
 
 Ensuring investors have liquidity is at the forefront of Jointer's focus. Keeping with that focus, Jointer will allow investors to sell their JNTR/ETN via SmartSwap or secondary exchange market partners.
 
 ### Conversions
-Investors are able to sell their JNTR/ETN at any time by swapping the JNTR/ETN to JNTR/STOCK or any other digital assets available (such as JNTR, ETH, BTC, STABLECOIN, and more). The swap price is calculated based on the current JNTR/ETN face value. The value starts at $1 and is multiplied by the percentage change of the Global Select All REITs Index with 2X leverage.
+Investors are able to sell their JNTR/ETN at any time by swapping the JNTR/ETN to JNTR/STOCK or any other digital assets available (such as JNTR, BNB, ETH, BTC, STABLECOIN, and more). The swap price is calculated based on the current JNTR/ETN face value. The value starts at $1 and is multiplied by the percentage change of the Global Select All REITs Index with 2X leverage.
 
 **Example**
 
@@ -124,7 +124,7 @@ Investors are able to sell their JNTR/ETN at any time by swapping the JNTR/ETN t
 - After one year of holding the assets, the index generates an average return of 10%
 - The JNTR/ETN receives 2X leverage on the 10% index returns
 - The new JNTR/ETN face value is calculated as follows: $100 X 110% X 2 = $120 - (Jointer's Carry) = $180
-- Bob use SmartSwap to swap the $180 of JNTR/ETH for $180 of ETH
+- Bob use SmartSwap to swap the $180 of JNTR/ETN for $180 of BNB
 
 ### _Secondary Market_ Exchange
 Investors can sell JNTR/ETN via ATS, National Stock Exchanges such as Merj, OTC exchanges, or regulated means to sell securities.
@@ -143,7 +143,7 @@ JNTR/ETN holders, at any time without limitation, can swap their JNTR/ETN using 
 
 ### Swap Without Volatility Exposure
 
-Using SmartSwap, Jointer offers investors a swap between JNTR/ETN and JNTR/STOCK or other digital assets such as ETH and fiat backed stablecoins. Investors that send their order to the SmartSwap will not have exposure to market volatility since the SmartSwap swaps assets with the same face value and without fees or spreads.
+Using SmartSwap, Jointer offers investors a swap between JNTR/ETN and JNTR/STOCK or other digital assets such as BNB and fiat backed stablecoins. Investors that send their order to the SmartSwap will not have exposure to market volatility since the SmartSwap swaps assets with the same face value and without fees or spreads.
 
 ### Redemption program
 
