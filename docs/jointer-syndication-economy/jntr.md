@@ -26,7 +26,7 @@ Although holders of JNTR are not entitled to the securities or properties, the J
 
 ## Types of JNTR Bridges
 
-The first JNTR bridge is with Binance's native token, BNB. The JNTR<>ETH bridge allows investors to convert BNB[^16] to JNTR and then to JNTR/ETN or JNTR/STOCK. Future developments will include support for other blockchains such as JNTR<>BTC, JNTR<>ETH, JNTR<>EOS, and JNTR<>TRON.
+The first JNTR bridge is with Binance's native token, BNB. The JNTR<>BNB bridge allows investors to convert BNB[^16] to JNTR and then to JNTR/ETN or JNTR/STOCK. Future developments will include support for other blockchains such as JNTR<>BTC, JNTR<>ETH, JNTR<>EOS, and JNTR<>TRON.
 
 ### JNTR's Utility Functionality rather than BNB, ETH, or BTC
 
@@ -162,7 +162,7 @@ Investors that buy JNTR assets are required to go through KYC (know your client)
 
 ![smartswap](/assets/images/smartswap.jpg)
 
-Jointer will allow users to swap JNTR through SmartSwap, which is powered by ElementZero (Jointer's subsidiary company). SmartSwap provides investors a decentralized exchange bridge (DEX-Bridge) option with a Peer-to-Peer (P2P) and Peer-to-Community (P2C) trading technology built on Ethereum. The trustless SmartSwap provides a way to swap assets and currencies without using a hot wallet, without signup, all while guaranteeing an exact face value match. SmartSwap's asset-to-asset swaps are precise, low risk, and 100% fee-free.[^22]
+Jointer will allow users to swap JNTR through SmartSwap, which is powered by ElementZero (Jointer's subsidiary company). SmartSwap provides investors a decentralized exchange bridge (DEX-Bridge) option with a Peer-to-Peer (P2P) and Peer-to-Community (P2C) trading technology built on the Binance Smart Chain. The trustless SmartSwap provides a way to swap assets and currencies without using a hot wallet, without signup, all while guaranteeing an exact face value match. SmartSwap's asset-to-asset swaps are precise, low risk, and 100% fee-free.[^22]
 
 JNTR enjoys permanent permission to transfer to the SmartSwap contract. So, an investor can always swap JNTR through SmartSwap.
 
@@ -188,7 +188,7 @@ SmartSwap P2C allows users to swap JNTR with other digital currencies without kn
 
 - Bob wants to swap $1,000 JNTR with $1,000 BNB.
 - Bob sends his order to SmartSwap and SmartSwap immediately identifies one counterparty that wants to swap $500 BNB against JNTR.
-- In this case, Bob will get the first $500 ETH and the rest of the $500 JNTR will stay pending until the SmartSwap identifies more counterparties that want to swap BNB with JNTR.
+- In this case, Bob will get the first $500 BNB and the rest of the $500 JNTR will stay pending until the SmartSwap identifies more counterparties that want to swap BNB with JNTR.
 
 ## Selling JNTR
 
