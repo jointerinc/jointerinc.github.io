@@ -18,7 +18,7 @@ parent: Jointer Syndication Economy
 
 JNTR is a liquidity bridge that serves as a transfer of value between traditional commercial real estate securities (JNTR/ETN and JNTR/STOCK) and digital currencies.
 
-JNTR is a financially engineered decentralized protocol layer on top of the Ethereum blockchain developed as the exclusive payment method to facilitate trades of Jointer's stocks (JNTR/STOCK) and bonds (JNTR/ETN)
+JNTR is a financially engineered decentralized protocol layer on top of the Binance Smart Chain blockchain developed as the exclusive payment method to facilitate trades of Jointer's stocks (JNTR/STOCK) and bonds (JNTR/ETN)
 
 JNTR's face value changes based on the liquidity reserve's calculation every time investors directly purchase JNTR through the daily Auction or through SmartSwap. The face value carries an exponential return potential along with a low risk profile, providing an uncorrelated hedge against volatility in the real estate and crypto markets.
 
@@ -26,21 +26,21 @@ Although holders of JNTR are not entitled to the securities or properties, the J
 
 ## Types of JNTR Bridges
 
-The first JNTR bridge is with Ethereum. The JNTR<>ETH bridge allows investors to convert ETH[^16] to JNTR and then to JNTR/ETN or JNTR/STOCK. Future developments will include support for other blockchains such as JNTR<>BTC, JNTR<>BNB, JNTR<>EOS, and JNTR<>TRON.
+The first JNTR bridge is with Binance's native token, BNB. The JNTR<>ETH bridge allows investors to convert BNB[^16] to JNTR and then to JNTR/ETN or JNTR/STOCK. Future developments will include support for other blockchains such as JNTR<>BTC, JNTR<>ETH, JNTR<>EOS, and JNTR<>TRON.
 
-### JNTR's Utility Functionality rather than ETH or BTC
+### JNTR's Utility Functionality rather than BNB, ETH, or BTC
 
 REITs own approximately $3 trillion in gross real estate assets, with more than $2 trillion from publically listed and non-listed REITs and the remainder from privately held REITs.[^17] By offering traditional REIT investors 2X leverage on the proven Global Select All REITs Index, the JNTR/ETN asset possesses intrinsic demand amongst these investors.
 
-If Jointer allowed trading for JNTR/ETN or JNTR/STOCK directly against ETH or BTC, the entire ecosystem would not have the ability to provide continuous liquidity for investors or would reduce the amount of funds Jointer could invest in Commercial Real Estate.
+If Jointer allowed trading for JNTR/ETN or JNTR/STOCK directly against BNB, ETH, or BTC, the entire ecosystem would not have the ability to provide continuous liquidity for investors or would reduce the amount of funds Jointer could invest in Commercial Real Estate.
 
 ### Overall Ecosystem Support
 
-Using JNTR as a bridge increases the interoperability of the Jointer Liquidity Economy. With the ongoing Jointer Auction bringing in funds for a reserve, JNTR can support liquidity to Ethereum or Ethereum based stablecoins for all JNTR/ETN and JNTR/STOCK holders.
+Using JNTR as a bridge increases the interoperability of the Jointer Liquidity Economy. With the ongoing Jointer Auction bringing in funds for a reserve, JNTR can support liquidity to BNB or BNB based stablecoins for all JNTR/ETN and JNTR/STOCK holders.
 
 ### JNTR compared to Cryptocurrency and Asset Backed Tokens
 
-JNTR is a financially engineered decentralized protocol layer on top of the Ethereum blockchain designed as the exclusive payment method to buy or sell Jointer's stocks (JNTR/STOCK) and bonds (JNTR/ETN). It functions as a liquidity bridge and serves as a transfer of value between traditional commercial real estate equity and other blockchain based digital currencies. JNTR's face value changes based on the Main Reserve's calculation every time investors directly purchase JNTR through the daily Auction or through other methods such as SmartSwap. This process creates an investment hedge against volatility in the real estate and crypto markets.
+JNTR is a financially engineered decentralized protocol layer on top of the Binance Smart Chain designed as the exclusive payment method to buy or sell Jointer's stocks (JNTR/STOCK) and bonds (JNTR/ETN). It functions as a liquidity bridge and serves as a transfer of value between traditional commercial real estate equity and other blockchain based digital currencies. JNTR's face value changes based on the Main Reserve's calculation every time investors directly purchase JNTR through the daily Auction or through other methods such as SmartSwap. This process creates an investment hedge against volatility in the real estate and crypto markets.
 
 ![compared-table](/assets/images/compared-table.jpg)
 
@@ -89,7 +89,7 @@ Jointer's minting is dynamic and automatic, powered by financially engineered sm
 
 ### Pre Minting
 
-Jointer will pre-mint $107M (equal to Jointer's valuation) worth of JNTR assets that will be distributed between Jointer's early investors, Jointer's providers, Advisors, and Jointer's team. Ongoing minting is based on daily Auction supply.
+Jointer will pre-mint 10,700,000,000 JNTR assets that will be distributed between Jointer's early investors, Jointer's providers, Advisors, and Jointer's team. Ongoing minting is based on daily Auction supply.
 
 #### Limitations on Pre-Minted JNTR
 
@@ -174,11 +174,11 @@ SmartSwap P2P allows users to generate a transaction ID that can be sent directl
 
 **Example**
 
-- Bob wants to swap $1,000 JNTR with $1,000 ETH
+- Bob wants to swap $1,000 JNTR with $1,000 BNB
 - Bob sends his order to the SmartSwap and generates the transaction ID for the P2P swap
 - Bob shares that transaction ID with Lisa
-- Since Lisa only sent $500 ETH against Bob's JNTR, the SmartSwap will execute the order of $500 JNTR against $500 ETH
-- The SmartSwap will detect the value discrepancy between the JNTR and ETH, returning the $500 JNTR delta to Bob's wallet
+- Since Lisa only sent $500 BNB against Bob's JNTR, the SmartSwap will execute the order of $500 JNTR against $500 BNB
+- The SmartSwap will detect the value discrepancy between the JNTR and BNB, returning the $500 JNTR delta to Bob's wallet
 
 ### P2C Swap
 
@@ -186,9 +186,9 @@ SmartSwap P2C allows users to swap JNTR with other digital currencies without kn
 
 **Example**
 
-- Bob wants to swap $1,000 JNTR with $1,000 ETH.
-- Bob sends his order to SmartSwap and SmartSwap immediately identifies one counterparty that wants to swap $500 ETH against JNTR.
-- In this case, Bob will get the first $500 ETH and the rest of the $500 JNTR will stay pending until the SmartSwap identifies more counterparties that want to swap ETH with JNTR.
+- Bob wants to swap $1,000 JNTR with $1,000 BNB.
+- Bob sends his order to SmartSwap and SmartSwap immediately identifies one counterparty that wants to swap $500 BNB against JNTR.
+- In this case, Bob will get the first $500 ETH and the rest of the $500 JNTR will stay pending until the SmartSwap identifies more counterparties that want to swap BNB with JNTR.
 
 ## Selling JNTR
 
@@ -202,15 +202,15 @@ JNTR will be carried on exchanges to facilitate multiple options to sell JNTR. I
 
 Jointer will establish the Liquidity Reserves on Day 1. As part of the multi-tier reserve process, Jointer will allocate 10% of the daily contributions to increase liquidity by purchasing JNTR from the reserve.
 
-JNTR assets will be redeemable through Jointer's Liquidity Reserves which adds multiple tiers of smart contracts above Bancor's slippage protocol for fair redemptions and unlimited liquidity. Users will be able to redeem JNTR for ETH and other major cryptocurrencies plus stablecoins that are available.
+JNTR assets will be redeemable through Jointer's Liquidity Reserves which adds multiple tiers of smart contracts above UNISWAP's slippage protocol for fair redemptions and unlimited liquidity. Users will be able to redeem JNTR for BNB and other major cryptocurrencies plus stablecoins that are available.
 
-#### Additional Protocol Above Bancor's Technology
+#### Additional Protocol Above UNISWAP's Technology
 
 Jointer developed multiple smart contracts which interact with the protocol to provide strong, healthy, and sustainable liquidity. Through these additional smart contracts, JNTR investors enjoy reduced slippage impact on swaps and a stable face value against volatility.
 
-_To understand how the Bancor slippage protocol reserve works visit:_
-[https://blog.bancor.network/how-bancor-relays-work-c712a374374f](https://blog.bancor.network/how-bancor-relays-work-c712a374374f)
-[https://medium.com/@adarweinreb/bancor-yellow-paper-f2666939403b](https://medium.com/@adarweinreb/bancor-yellow-paper-f2666939403b)
+_To understand how the UNISWAP protocol reserve works visit:_
+[https://uniswap.org/docs/v2/protocol-overview/how-uniswap-works/](https://uniswap.org/docs/v2/protocol-overview/how-uniswap-works/)
+
 
 Read more about relay tokens, and slippage calculations in the ["Establishing Jointer's Liquidity Reserves"](docs/jointers-liquid-economy) section of this paper.
 
@@ -265,7 +265,7 @@ currencies
 
 - JNTR can be swapped to JNTR/ETN or JNTR/STOCK at any time
 
-[^16]: or ERC20 stablecoins and select other ERC20 cryptocurrencies
+[^16]: or BNB stablecoins and select other BNB cryptocurrencies
 [^17]: [https://www.reit.com/data-research/data/reits-numbers](https://www.reit.com/data-research/data/reits-numbers)
 [^18]: https://www.nar.realtor/sites/default/files/reports/2017/2017-commercial-lending-trends-survey-05-18-2017.pdf
 [^20]: Jointer reserves the right to use this investment to support liquidity until the organic market will be strong enough to support ongoing liquidity
