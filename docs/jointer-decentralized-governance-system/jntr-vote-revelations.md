@@ -1,7 +1,7 @@
 ---
 layout: default
 title: JNTR Vote Revelations
-nav_order: 9
+nav_order: 11
 parent: Jointer Decentralized Governance System
 ---
 
